@@ -36,10 +36,10 @@ java-foundations-access-modifiers
 ```
 | **Modifier**      | **Same Class** | **Same Package** | **Subclass (Same Package)** | **Subclass (Different Package)** | **Outside World** |
 |-------------------|---------------|------------------|-----------------------------|---------------------------------|--------------------|
-| **public**        | Yes        | Yes          | Yes                      | Yes                          | Yes             |
-| **protected**     | Yes        | Yes          | Yes                      | Yes *(via inheritance)*      | No              |
-| **default**       | Yes        | Yes          | Yes *(same package)*     | No                           | No              |
-| **private**       | Yes        | No           | No                       | No                          | No              |
+| **public**        | Yes           | Yes              | Yes                          | Yes                             | Yes             |
+| **protected**     | Yes           | Yes              | Yes                          | Yes *(via inheritance)*         | No              |
+| **default**       | Yes           | Yes              | Yes *(same package)*         | No                              | No              |
+| **private**       | Yes           | No               | No                           | No                              | No              |
 ```
 
 ## **Classes Overview**
@@ -55,7 +55,7 @@ java-foundations-access-modifiers
 ## **Actual Output**
 
 === Java Access Modifiers Demo ===
-
+```
 === Employee Details (Same Package Subclass) ===
 Name: Scott
 Age: 30
@@ -77,6 +77,7 @@ Name: Alex
 Masked SSN: XXX-XX-1111
 
 === End of Demo ===
+```
 
 
 
